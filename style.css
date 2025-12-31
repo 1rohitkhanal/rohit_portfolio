@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.navbar a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #f7b500;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.hero-text .hello {
+    color: #f7b500;
+    letter-spacing: 2px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.hero-text h1 span {
+    color: #f7b500;
+}
+
+.role {
+    margin-bottom: 20px;
+}
+
+.buttons .btn {
+    padding: 12px 25px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.primary {
+    background: #f7b500;
+    color: #000;
+}
+
+.secondary {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.hero-img img {
+    width: 350px;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    padding: 80px;
+    gap: 50px;
+}
+
+.about-img img {
+    width: 300px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.about-text ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.about-text ul li {
+    margin-bottom: 8px;
+}
+
+.projects {
+    margin: 20px 0;
+    color: #f7b500;
+}
+
+/* SKILLS */
+.skills {
+    padding: 80px;
+}
+
+.skills h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background: #222;
+    height: 8px;
+    border-radius: 5px;
+}
+
+.progress div {
+    height: 100%;
+    background: #f7b500;
+    border-radius: 5px;
+}
